@@ -5,4 +5,5 @@
 # @File : __init__.py.py
 # @Software: PyCharm
 
-import utils_duweidong
+__all__ = ['read_txt', 'write_txt', 'create_same_dir', 'extract_frame', 'read_excel']
+from Tool.utils_duweidong import *
