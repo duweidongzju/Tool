@@ -5,5 +5,8 @@
 # @File : __init__.py.py
 # @Software: PyCharm
 
-__all__ = ['read_txt', 'write_txt', 'create_same_dir', 'extract_frame', 'read_excel']
+utils_duweidong = ['read_txt', 'write_txt', 'create_same_dir', 'extract_frame', 'read_excel']
+detection_box = ['plot_one_rotated_box']
+
+__all__ = utils_duweidong.extend(detection_box)
 from Tool.utils_duweidong import *
